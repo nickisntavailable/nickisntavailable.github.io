@@ -6,17 +6,12 @@ const btn = document.getElementsByClassName('btn')[0];
 const sortBtn = document.getElementsByClassName('sort')[0];
 
 
-let username = "test_super";
-let password = "Nf<U4f<rDbtDxAPn";
+
 
 
 let urlAuth = "https://emphasoft-test-assignment.herokuapp.com/api-token-auth/";
 let urlUsersList = `https://emphasoft-test-assignment.herokuapp.com/api/v1/users/`;
 
-let data = {
-    username,
-    password
-}
 
 let cachedRows;
 
