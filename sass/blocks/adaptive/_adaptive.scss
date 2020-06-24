@@ -64,7 +64,7 @@
         .table {
             width: 300px;
             .col {
-                max-width: 80px;
+                max-width: 50px;
                 overflow: hidden;
             }
         }
@@ -74,27 +74,39 @@
 
 @media (max-width: 320px) {
     .container {
-        width: 300px;
+        width: 280px;
         margin-top: 30px;
         padding: 10px 5px;
     }
 
     .form { 
-        width: 250px;
+        width: 220px;
 
         &__control {
             width: 100%;
         }
         h2 {
-            font-size: 25px;
+            font-size: 23px;
         }
 
         label {
-            font-size: 13px;
-            line-height: 24px;
+            font-size: 12px;
+            line-height: 22px;
         }
     }
     .btn {
-        width: 250px;
+        width: 220px;
+    }
+    .table-container {
+        max-width: 300px;
+        font-size: 9px;
+        .table {
+            width: 300px;
+            .col {
+                max-width: 50px;
+                overflow: hidden;
+            }
+        }
+        
     }
 }
