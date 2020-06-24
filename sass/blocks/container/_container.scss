@@ -1,0 +1,31 @@
+.container {
+    // position: relative;
+    width: 400px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: rgba(140, 190, 255, 0.199);
+    box-shadow: 1px 5px 10px rgba(110, 110, 110, 0.692);
+    padding: 30px 20px;
+    font-family: sans-serif;
+    transition: all 0.5s linear;
+
+    .login {
+        color: rgba(51, 248, 25, 0.651);
+        padding-top: 6px;
+        display: flex;
+        justify-content: center;
+        visibility: hidden;
+        transition: all 0.25s ease;
+        font-size: 15px;
+        &.success {
+            visibility: visible;
+        }
+        &.error {
+            color: red;
+            visibility: visible;
+        }
+    }
+    
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(140, 190, 255, 0.158);
+}
+
+@import 'blocks/container/container';
+@import 'blocks/btn/btn';
+@import 'blocks/form/form';
+@import 'blocks/input/input';
+@import 'blocks/tablecontainer/table-container';
+@import 'blocks/adaptive/adaptive';
+
+
+
+
+
+
+
+

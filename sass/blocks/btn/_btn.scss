@@ -1,0 +1,28 @@
+.btn {
+    display: block;
+    margin: 0px auto;
+    width: 320px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 17, 255, 0.37);
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+    &.sort{
+        width: 160px;
+        height: 40px;
+        margin: 0;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    &:hover {
+        color: #000;
+        background-color: rgb(72, 84, 255);
+        border: 1px solid rgba(72, 84, 255, 0.288);
+        transition: all 0.5 ease-in;
+    }
+    
+}

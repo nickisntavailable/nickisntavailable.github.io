@@ -1,0 +1,19 @@
+.input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+
+    &:focus {
+        outline: none;
+    }
+    &.filter {
+        border-radius: 10px;
+        width: 50%;
+        
+    }
+    &::placeholder {
+        color: rgba(75, 75, 75, 0.438);
+        font-size: 15px;
+        // padding-left: 10px;
+    }
+}
