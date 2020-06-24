@@ -10,8 +10,8 @@ let username = "test_super";
 let password = "Nf<U4f<rDbtDxAPn";
 
 
-let urlAuth = "http://emphasoft-test-assignment.herokuapp.com/api-token-auth/";
-let urlUsersList = `http://emphasoft-test-assignment.herokuapp.com/api/v1/users/`;
+let urlAuth = "https://emphasoft-test-assignment.herokuapp.com/api-token-auth/";
+let urlUsersList = `https://emphasoft-test-assignment.herokuapp.com/api/v1/users/`;
 
 let data = {
     username,
